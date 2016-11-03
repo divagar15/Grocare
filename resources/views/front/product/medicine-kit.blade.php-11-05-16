@@ -1,0 +1,286 @@
+@extends('front.layout.tpl')
+
+@section('customCss')
+
+
+
+<style type="text/css">
+
+  #searchContainer {
+
+    margin-top: 0px !important;
+
+  }
+
+  .productGrid {
+
+    height: auto !important;
+
+    padding-bottom: 10px;
+
+  }
+
+
+
+  .orderNow a {
+
+    width: 100%;
+
+  }
+
+</style>
+
+
+
+
+
+@endsection
+
+
+
+@section('content')
+
+
+
+<div class="container pageStart" style="margin-top:130px;" id="productListing">
+
+
+
+<div class="row">
+
+
+
+  <div class="col-md-12" id="productTab">
+
+
+
+    <div class="col-md-2 col-md-offset-4">
+
+
+
+      <div class="inactive" id="products">
+
+       <a href="{{URL::to('products')}}">
+
+       <img src="{{URL::asset('public/front/images/icons/product.png')}}">
+
+       <div class="titleh3">PRODUCTS</div>
+
+       </a>
+
+      </div>
+
+
+
+    </div>
+
+
+
+    <div class="col-md-2">
+
+
+
+      <div class="active" id="medical-kit">
+
+       <a href="{{URL::to('medicine-kit')}}">
+
+        <img src="{{URL::asset('public/front/images/icons/medical-kit-active.png')}}">
+
+        <div class="titleh3">MEDICINE KIT</div> 
+
+       </a>
+
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+</div>
+
+
+
+  <div class="row" id="productsList">
+
+
+
+    <div class="col-md-12 no-padding">
+
+
+
+      @if(isset($productList) && count($productList)>0)
+
+
+
+
+
+      @foreach($productList as $list)
+
+
+
+      <?php
+
+        $getKitDetails = App\Helper\FrontHelper::getKitDetails($list->id);
+
+       // echo '<pre>'; print_r($getKitDetails); echo '</pre>'; 
+
+        $courseStart = 0;
+
+      ?>
+
+
+
+      <div class="col-md-3">
+
+
+
+          <div class="productGrid">
+
+          <!--   <a href="{{URL::to('diagnose/'.$list->diagnosis_slug)}}"> -->
+
+                <br/>
+
+                <div class="titleh3">{{ucwords($list->name)}}</div>
+
+                <div class="description">
+
+                  <p>{{ucfirst(substr($list->short_description,0,100))}}</p>
+
+                </div>
+
+                <div class="price">
+
+                  <p><strong>{{$symbol}}&nbsp;{{$getKitDetails['displayPrice']}}</strong></p>
+
+                  <p>For {{$getKitDetails['displayCourse']}}</p>
+
+                </div>
+
+              <!-- </a> -->
+
+              <div class="orderNow">
+
+                <p><a href="javascript:void(0)" id="orderMenu{{$list->did}}" class="btn btn-default btn-sm orderBtn orderMenuList customGradientBtn white order-color">ORDER NOW</a></p>
+
+                <div class="orderMenu{{$list->did}}" style="display:none;">
+
+                  <p class="size15" style="text-align:center;">ORDER MEDICINES FOR</p>
+
+                  @if(isset($getKitDetails['diagnosisCourse']) && !empty($getKitDetails['diagnosisCourse']))
+
+                  @foreach($getKitDetails['diagnosisCourse'] as $proCourse)
+
+                  <?php
+
+                    if($proCourse->fkcourse_id==1) {
+
+                      $courseStart = 1;
+
+                    }
+
+                  ?>
+
+                  <p style="margin:0;"><a href="{{URL::to('add-to-cart')}}?diagnosis_id={{$list->did}}&diagnosis_name={{$list->diagnosis_name}}&product_type=2&product_course={{$proCourse->fkcourse_id}}&product_id={{$list->id}}&product_price={{$getKitDetails['displayPrice']}}&product_qty=1&ordered_from=kit&course_start={{$courseStart}}" class="btn btn-default btn-sm menuBtn customGradientBtn  white order-color">{{strtoupper($proCourse->course_name)}}</a></p>
+
+                  @endforeach
+
+                  @endif
+
+                </div>
+
+            </div>
+
+            <!-- <div class="cart" style="margin-top:30px;">
+
+              <p class="centralize"><a href="{{URL::to('diagnose/'.$list->diagnosis_slug)}}">Read More</a></p>
+
+            </div> -->
+
+
+
+          </div>
+
+
+
+      </div>
+
+
+
+      @endforeach
+
+
+
+      @else 
+
+
+
+        <div class="titleh5 center">There are no products to display for your region </div>
+
+
+
+      @endif
+
+
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+@endsection
+
+
+
+@section('customJs')
+
+
+
+<script type="text/javascript">
+
+  $(document).ready(function(){
+
+
+
+    $('.orderMenuList').click(function(){
+
+      //alert(this.id);
+
+      $('.'+this.id).slideToggle();
+
+    });
+
+    
+
+
+
+  });
+
+</script>
+
+
+
+@endsection
+

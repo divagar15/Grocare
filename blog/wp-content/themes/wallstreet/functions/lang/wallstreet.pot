@@ -1,0 +1,1450 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wallstreet-lite\n"
+"POT-Creation-Date: 2016-01-22 14:12+0530\n"
+"PO-Revision-Date: 2016-01-22 14:12+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: D:\\xampp\\htdocs\\wordpress\\wp-content\\themes"
+"\\wallstreet_lite_customizer\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\wordpress\\wp-content\\themes"
+"\\wallstreet_lite_customizer\n"
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/404.php:8
+msgid "Error -404"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/404.php:20
+msgid "Error 404"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/404.php:21
+msgid "Oops! Page not found"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/404.php:22
+msgid "We`re sorry, but the page you are looking for doesn`t exist."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/404.php:23
+msgid "Go to Homepage"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/archive.php:10
+msgid "Daily Archives:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/archive.php:12
+msgid "Monthly Archives:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/archive.php:14
+msgid "Yearly Archives:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/archive.php:16
+msgid "Blog Archives"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/archive.php:48
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/author.php:38
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/category.php:39
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/index-blog.php:46
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/index.php:42
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/tag.php:38
+msgid "Read More"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/archive.php:49
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/author.php:39
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/category.php:40
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/index.php:43
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/single.php:42
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/tag.php:39
+msgid "Pages:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/author.php:8
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:162
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:234
+msgid "Install Plugins"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:163
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:235
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:175
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:247
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:177
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1939
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:248
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:531
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2156
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1166
+msgid "Private Repository"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1169
+msgid "Pre-Packaged"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1174
+msgid "WordPress Repository"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1177
+msgid "Required"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1177
+msgid "Recommended"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1180
+msgid "Not Installed"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1182
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1287
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1395
+msgid "Install"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1309
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1396
+msgid "Activate"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1358
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1374
+msgid "Plugin"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1375
+msgid "Source"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1376
+msgid "Type"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1377
+msgid "Status"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1922
+msgid "Install package not available."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1923
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1924
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1925
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1926
+msgid "Plugin install failed."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1927
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:1938
+msgid "Plugin activation failed."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2052
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2053
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2053
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2062
+msgid "Show Details"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2053
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2062
+msgid "Hide Details"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2054
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2055
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2059
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2060
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2061
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2062
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2063
+msgid "All installations have been completed."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/class-tgm-plugin-activation.php:2064
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:2
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:20
+msgid "Comment navigation"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:21
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:22
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:26
+msgid "Comments are closed."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:31
+msgid "You must be"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:31
+msgid "logged in"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:31
+msgid "to post a comment"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:38
+msgid "Name:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:39
+msgid "Email:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:48
+msgid "Message:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:49
+msgid "Logged in as "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:49
+msgid "Log out of this account"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:49
+msgid " Log out?"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:51
+msgid "Send Message"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/comments.php:54
+msgid "Leave a Comment"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:53
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:70
+msgid "Primary Menu"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:91
+msgid "Sidebar"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:93
+msgid "The left sidebar widget area"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:101
+msgid "Footer Widget Area"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:103
+msgid "footer widget area"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:140
+msgid "Reply"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:147
+msgid "Posted on &nbsp;"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:149
+msgid "Edit"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:154
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:233
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:236
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions.php:249
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/header.php:81
+msgid "Toggle navigation"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/search.php:23
+#, php-format
+msgid "Search Results For: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/search.php:41
+msgid "Read more"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/search.php:56
+msgid "Previous"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/search.php:57
+msgid "Next"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/search.php:61
+msgid "Nothing Found"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/search.php:63
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/tag.php:8
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:24
+msgid "Clean & Fresh Theme"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:25
+msgid "Welcome To Wallstreet"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:26
+msgid ""
+"The state-of-the-art HTML5 powered flexible layout with lightspeed fast CSS3 "
+"transition effects. Works perfect in any modern mobile..."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:33
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:66
+msgid "Product Designing"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:34
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:38
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:42
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:84
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:144
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:203
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor "
+"sit amet, consectetur adipisicing elit dignissim dapib tumst dign eger porta "
+"nisl."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:37
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:126
+msgid "WordPress Themes"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:41
+msgid "Responsive Designs"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:47
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:51
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:55
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:59
+msgid "Wall Street Style"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:48
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:52
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:56
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:60
+msgid ""
+"A wonderful serenity has taken possession of my entire soul, like these "
+"sweet mornings."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:70
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:76
+msgid "Our Services"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:71
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:95
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:110
+msgid "We Offer Great Services to our Clients"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:72
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:113
+msgid "Featured Portfolio Project"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:73
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:132
+msgid "Most Popular of Our Works."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:74
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:151
+msgid "Our Latest Blog Post"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:75
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:170
+msgid "We Work With New Customers And Grow Their Businesses"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/theme_setup_data.php:87
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-copyright.php:15
+#, php-format
+msgid ""
+"Copyright @ 2014 - WALL STREET. Designed by,wallstreet <a href=\"%1$s\" "
+"target=\"_blank\">Webriti</a>"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/breadcrumbs/breadcrumbs.php:5
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/menu/default_menu_walker.php:23
+msgid "Home"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/breadcrumbs/breadcrumbs.php:24
+msgid "Archive by category "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/breadcrumbs/breadcrumbs.php:27
+msgid "Search results for "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/breadcrumbs/breadcrumbs.php:85
+msgid "Posts tagged "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/breadcrumbs/breadcrumbs.php:90
+msgid "Articles posted by "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/breadcrumbs/breadcrumbs.php:93
+msgid "Error 404 "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/breadcrumbs/breadcrumbs.php:98
+msgid "Page"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-blog.php:7
+msgid "Blog Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-blog.php:27
+msgid "Enable Home Blog Section"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-client.php:5
+msgid "Want to add Client Section Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-client.php:5
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:6
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:5
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:13
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:21
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:28
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:36
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:45
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:5
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:7
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:15
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:22
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:29
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:36
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:43
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:50
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:57
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:64
+msgid " Upgrade To Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-client.php:14
+msgid "Client section Heading"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-client.php:30
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:36
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:79
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:147
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:274
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:408
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:558
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:627
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:35
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:104
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:179
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:254
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:328
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:402
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:477
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:550
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:624
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:697
+msgid "Wallstreet Upgrade"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-client.php:42
+msgid "Our Clients"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-client.php:51
+msgid "Client Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-client.php:61
+msgid ""
+"HAVE A LOOK AT OUR CLIENT WE ARE GROWING THEIR BUSINESS AND THEY ARE GOING "
+"UP IN THE MARKET BY BEATING THEIR COMPETITORS."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-client.php:70
+msgid "Client Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-copyright.php:8
+msgid "Footer Copyright Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-copyright.php:24
+msgid "Copyright text"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:6
+msgid "Want to add Theme Feature Section Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:15
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:20
+msgid "Theme Feature Setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:60
+msgid "Enable Theme Featured Section From Front Page:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:74
+msgid "Choose Background Image"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:96
+msgid "Theme Feature Title:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:116
+msgid "First Feature Icon:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:128
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:191
+msgid "Incredibly Flexible"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:136
+msgid "First Feature Title:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:149
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:212
+msgid "Perspiciatis unde omnis iste natus error sit voluptaem omnis iste."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:157
+msgid "First Feature Description:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:179
+msgid "Second Feature Icon:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:199
+msgid "Second Feature Title:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:220
+msgid "Second Feature Description:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:242
+msgid "Third Feature Icon:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:254
+msgid "Ultimate Shortcodes"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:262
+msgid "Third Feature Title:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:275
+msgid "Perspiciatis unde omnis iste natus error sit voluptaem omnis iste.."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-feature.php:283
+msgid "Third Feature Description:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:9
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:63
+msgid "Section Heading"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:28
+msgid "Enable Contact Information On Front Page."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:38
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:349
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:369
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:500
+msgid "1-800-123-789"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:47
+msgid "Contact Phone Number on Front Page:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:56
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:480
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:520
+msgid "info@webriti.com"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:65
+msgid "Contact Email on Front Page:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:85
+msgid "Services Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:104
+msgid "Services Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:122
+msgid "Portfolio Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:141
+msgid "Portfolio Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:160
+msgid "Home Page Blog Section Heading"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-heading.php:179
+msgid "Home Page Blog Section Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-home.php:8
+msgid "Header Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-home.php:14
+msgid "Site favicon"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-home.php:16
+msgid "Upload a favicon"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-home.php:27
+msgid "Choose your favicon (ideal width and height is 16x16 or 32x32)"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-home.php:46
+msgid "Header Logo setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-home.php:64
+msgid "Upload a 150x150 for Logo Image"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-home.php:83
+msgid "Enable/Disabe Logo"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-home.php:104
+msgid "Enter Logo Width"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-home.php:123
+msgid "Enter Logo Height"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-home.php:145
+msgid "Show Logo text"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-home.php:153
+msgid "Custom css"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-home.php:166
+msgid "Custom css snippet:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-pro.php:13
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:299
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:234
+msgid "http://webriti.com/wallstreet/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-pro.php:13
+msgid "UPGRADE  TO PRO"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-pro.php:20
+msgid "UPGRADE  TO PRO VERSION"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-pro.php:33
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-pro.php:63
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-pro.php:96
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:314
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:249
+msgid "Discover wallstreet Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-pro.php:48
+msgid "https://wordpress.org/support/view/theme-reviews/wallstreet#postform/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-pro.php:48
+msgid "ADD YOUR REVIEW"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-pro.php:77
+msgid "http://webriti.com/help/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-pro.php:77
+msgid "DOCUMENTATION"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-pro.php:81
+msgid ""
+"The Pro Version gives you more opportunities to enhance your site and "
+"business. In order to create effective online presence one have to showcase "
+"their wide range of products, have to use contact us enquiry form, have to "
+"make effective about us page, have to introduce team members, etc etc . The "
+"pro version will give it all. Buy the pro version and give us a chance to "
+"serve you better. "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:8
+msgid "Project Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:14
+msgid "Home Project Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:34
+msgid "Enable portfolio section on home page(project section)."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:50
+msgid "Portfolio Title One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:60
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:129
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:189
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:249
+msgid ""
+"A wonderful serenity has taken possession of my entire soul, like these "
+"sweet mornings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:69
+msgid "Portfolio Description One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:80
+msgid "Home Portfolio one"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:94
+msgid "Project One Thumbnail"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:106
+msgid "Home Portfolio two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:120
+msgid "Portfolio Title Two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:138
+msgid "Portfolio Description Two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:151
+msgid "Project two Thumbnail"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:164
+msgid "Home Portfolio three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:180
+msgid "Portfolio Title Three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:198
+msgid "Portfolio Description Three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:212
+msgid "Project three Thumbnail"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:226
+msgid "Home Portfolio Four"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:240
+msgid "Portfolio Title Four"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:258
+msgid "Portfolio Description Four"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:272
+msgid "Project four Thumbnail"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:283
+msgid "Add More Project"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:296
+msgid "Want to add more projects and categorization than upgrade to pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-project.php:299
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:234
+msgid "UPGRADE TO PRO"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:7
+msgid "Service Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:12
+msgid "Enable Service Section  "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:32
+msgid "Enable Service Section on front page."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:40
+msgid "Service Section one"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:53
+msgid "Service Image One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:75
+msgid "Service Title One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:93
+msgid "Service Description One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:101
+msgid "Service Section Two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:114
+msgid "Service Image Two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:135
+msgid "Service Title Two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:153
+msgid "Service Description Two"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:160
+msgid "Service Section Three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:173
+msgid "Service Image Three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:185
+msgid "Easy to Use"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:194
+msgid "Service Title Three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:212
+msgid "Service Description Three"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:218
+msgid "Add More Service"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-service.php:231
+msgid "Want to add more services, than upgrade to pro version"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-slider.php:7
+msgid "Banner Image Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-slider.php:20
+msgid "Image Upload"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-slider.php:38
+msgid "Banner Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-slider.php:53
+msgid "Banner Sub Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-slider.php:68
+msgid "Banner Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-social.php:7
+msgid "Social Link Setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-social.php:15
+msgid "Social Link "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-social.php:35
+msgid "Enable social media links on header section"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-social.php:54
+msgid "Enable social media links on Footer section"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-social.php:76
+msgid "Twitter Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-social.php:95
+msgid "Facebook Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-social.php:115
+msgid "Google Plus Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-social.php:136
+msgid "Linkedin Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-social.php:156
+msgid "Youtube Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:5
+msgid ""
+"Want to add About us Template Heading and Add Team Section Then Upgrade to "
+"Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:13
+msgid "Want to Add Contact Address in Contact Template Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:21
+msgid ""
+"Want to Add Contact Phone Number in Contact Template Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:28
+msgid "Want to Add Email in Contact Template Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:36
+msgid ""
+"Want to Add Contact Form Title & Description in Contact Template Then "
+"Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:45
+msgid "Want to Add Map in Contact Template Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:55
+msgid "Template Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:90
+msgid "Our Great Team"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:99
+msgid "About Us Page Team Heading"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:119
+msgid "About Us Page Team Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:130
+msgid "Contact Page Address Section Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:168
+msgid "Enable Contact Page Address Section:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:189
+msgid "Contact Address Icon:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:200
+msgid "Address"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:209
+msgid "Contact Address Title:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:220
+msgid "Hoffman Parkway, P.O. Box 353"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:229
+msgid "Contact Address Designation One:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:238
+msgid "Mountain View. USA"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:247
+msgid "Contact Address Designation Two:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:257
+msgid "Contact Page Phone Section Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:295
+msgid "Enable Contact Page Phone Section:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:317
+msgid "Contact Phone Icon:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:329
+msgid "Phone"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:338
+msgid "Contact Phone Title:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:358
+msgid "Contact Phone Number One:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:378
+msgid "Contact Phone Number Two:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:390
+msgid "Contact Page Email Section Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:430
+msgid "Enable Contact Page Email Section:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:449
+msgid "Contact Email Icon:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:460
+msgid "Email"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:469
+msgid "Contact Email Title:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:489
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:529
+msgid "Contact Email One:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:509
+msgid "Contact Email Two:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:541
+msgid "Contact Form Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:569
+msgid "Drop Us a Line"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:578
+msgid "Contact Form title:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:589
+msgid "Feel Free to write us a Message"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:598
+msgid "Contact Form Description:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:610
+msgid "Google Maps"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:638
+msgid "themes@webriti.com"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:647
+msgid "Enable Google Map in contact page"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:657
+msgid "Location Map"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:666
+msgid "Google Map Title:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:678
+msgid ""
+"https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;"
+"q=Kota+Industrial+Area,+Kota,+Rajasthan&amp;aq=2&amp;oq=kota+&amp;"
+"sll=25.003049,76.117499&amp;sspn=0.020225,0.042014&amp;t=h&amp;ie=UTF8&amp;"
+"hq=&amp;hnear=Kota+Industrial+Area,+Kota,+Rajasthan&amp;z=13&amp;"
+"ll=25.142832,75.879538"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-template.php:686
+msgid "Google Map URL:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:5
+msgid "Want to add Testimonial Than Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:14
+msgid "Testimonail Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:20
+msgid "Home Testimonial Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:47
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:59
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:68
+msgid "scroll"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:57
+msgid "Slide Type Variations"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:59
+msgid "fade"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:59
+msgid "crossfade"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:59
+msgid "cover-fade"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:78
+msgid "Scroll Items"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:87
+msgid "1500"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:98
+msgid "Scroll Duration"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:107
+msgid "2000"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-testimonial.php:118
+msgid "Time out Duration"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:7
+msgid "Want to Add Genral Typography In Theme Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:15
+msgid "Want to Add Menus Typography In Theme Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:22
+msgid "Want to Add Post/Page Typography In Theme Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:29
+msgid "Want to Add Service Title Typography In Theme Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:36
+msgid "Want to Add Portfolio Title Typography In Theme Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:43
+msgid "Want to Add Widget Title Typography In Theme Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:50
+msgid "Want to Add Callout Area Title Typography In Theme Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:57
+msgid ""
+"Want to Add Callout Area Description Typography In Theme Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:64
+msgid ""
+"Want to Add Callout Button Title Typography In Theme Then Upgrade to Pro/"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:72
+msgid "Typography Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:89
+msgid "General Typography"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:121
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:196
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:271
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:345
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:418
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:493
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:567
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:640
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:713
+msgid "Font Size"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:138
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:213
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:288
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:362
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:435
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:510
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:584
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:657
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:730
+msgid "Font Family"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:154
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:229
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:304
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:378
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:451
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:526
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:600
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:673
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:746
+msgid "Font Style"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:164
+msgid "Menus Typography"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:239
+msgid "Post / Page Typography"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:313
+msgid "Service Title Typography"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:387
+msgid "Portfolio Title Typography"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:461
+msgid "Widget Heading Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:535
+msgid "Call Out Area Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:609
+msgid "Call Out Area Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress\wp-content\themes\wallstreet_lite_customizer/functions/customizer/customizer-typography.php:682
+msgid "Call Out Area Button"
+msgstr ""

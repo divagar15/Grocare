@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://www.grocare.com/</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/auth/login</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/register</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/cart</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/about-us</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/contact</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/hernia</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/varicocele</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/tooth-sensitivity</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/testimonials</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/hernica</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/acidim</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/activiz</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/media</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/technical-bulletins</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/faq</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/customer-policy</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/shipping-delivery-policy</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/cancellation-refund-policy</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/disclaimer</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/privacy-policy</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/terms-conditions</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/forgot-password</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/acid-reflux-heartburn</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/acidity</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/acne</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/amoebiasis</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/anemia-low-hemoglobin</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/ankle-pain</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/arthritis</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/Back-pain</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/constipation</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/diarrhoea</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/dry-cough</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/elbow-pain</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/erectile-disfunction</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/fatigue</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/frozen-shoulder</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/gall-bladder-stone</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/gas-belching-bloating-flatulence</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/gastritis</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/gerd</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/heel-pain</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/hemorrhoids</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/high-cholesterol</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/high-triglycerides</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/indigestion</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/irritable-bowel-syndrome-ibs</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/joint-pains</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/kidney-stone</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/knee-pain</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/liver-disorders</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/migraine</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/mouth-ulcers-blisters</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/neck-pain</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/oligospermia</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/onychomycosis-nail-fungus</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/osteoarthritis</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/parkinsons-disease</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/pelvic-prolapse</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/piles</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/prostatitis</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/rectal-prolapse</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/rheumatoid-arthritis</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/sensitive-stomach</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/spermatocele</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/stomach-pain-spasm</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/tinnitus</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/urinary-disorders</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/varicose-veins</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/diagnose/vertigo-dizziness</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/distribute</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/medicine-kit</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/dencare</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/gc-tablets</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/lipican</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/nervica</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/restotab</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/stomaid</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/vinidia</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/hernica/contents</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/acidim/contents</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/activiz/contents</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/public/uploads/technicalBulletins/Cholesterol-for-easy-understanding.pdf</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/public/uploads/technicalBulletins/Grocare-India-Technical-bulletin-Acidim.pdf</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/public/uploads/technicalBulletins/Varicose-Veins-may-be-Caused-because-the-body-is-Too-Acidic-and-is-Lacking-in-1.docx</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/public/uploads/technicalBulletins/Acidity-Free-Radicals-Headache-and-Aging-1.docx</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/public/uploads/diagnosis/7/diet_chart_amoebiasis.docx</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/public/uploads/diagnosis/51/diet_chart_onychomycosis%20-%20nail%20fungus.docx</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/public/uploads/diagnosis/43/diet_chart_rheumatoid%20arthritis.docx</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/dencare/contents</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/gc-tablets/contents</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/lipican/contents</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/nervica/contents</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/restotab/contents</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/stomaid/contents</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.grocare.com/products/vinidia/contents</loc>
+  <lastmod>2016-03-18</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.51</priority>
+</url>
+</urlset>

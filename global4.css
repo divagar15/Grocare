@@ -1,0 +1,133 @@
+.navbar-wrapper{box-shadow: none; }
+.elipsis{white-space: nowrap; width: 100%; overflow: hidden; text-overflow: ellipsis; }
+.carousel-inner{height: auto; }
+.sections{margin: 5% 0px; }
+.btn-default.readmore, .btn-default.readmore:hover{color: #333 !important; background-color: #fff !important; border-color: #ccc !important; }
+
+@media (max-width:767px){#custom-search-input{margin-top: 0px; }
+.carousel-inner1{height: auto; }
+#didYouKnow .item{height: auto; }
+.test_slider .owl-controls{display: none; }
+.carousel-inner{height: auto !important; }
+#happyCustomer h3{margin-top: 0px; padding-top: 10px; }
+#securePayments h3{margin-top: 0px; padding-top: 10px; }
+#informationBox{margin-top: 0px; }}
+.did_you_know{font-size: 16px; }
+#securePayments p{font-size: 14px; }
+iframe[id^='twitter-widget-0']{height: 600px !important; margin-bottom: 10px !important; width: 100% !important; }
+.fb-page, .fb-page span, .fb-page span iframe[style]{width: 100% !important; }
+
+@media (min-width: 768px){.sidebar-nav .navbar .navbar-collapse{padding: 0; max-height: none; }
+.sidebar-nav .navbar ul{float: none; display: block; }
+.sidebar-nav .navbar li{float: none; display: block; }
+.sidebar-nav .navbar li a{padding-top: 12px; padding-bottom: 12px; }}
+.margin-null{margin: 0px; margin-bottom: 1%; }
+.headerclass{background: #008ddc; width: 100%; top: 0; position: fixed; z-index: 999999; height: 115px; }
+#topbar{width: 100%; top: 0; background: #fff; box-shadow: 0px 1px 5px #111; padding: 0px; }
+.cart{color: #000; }
+.margin_top{margin-top: 115px; }
+.serch{color: #000; }
+.no-padding{padding: 0px; }
+.topbar1 ul{margin-bottom: 0px; }
+.topbar1_1 ul{margin-bottom: 0px; }
+.topbar1_1 ul li{padding: 0px 2px; }
+.topbar1 a{color: #000; vertical-align: middle; font-family: 'lato-light'; }
+.topclass>.container{padding-top: 6px; padding-bottom: 6px; }
+.menu_icon .fa{font-size: 28px; display: block; text-align: center; }
+.menu_icon>li>a{font-size: 28px; color: #fff !important; padding-top: 10px; padding-bottom: 10px; }
+.menu_icon li a:hover{color: #fff!important; background: #159FEC !important; }
+.menu_icon{padding-top: 6px; padding-bottom: 3px; }
+.f_fb{color: #808285; font-size: 30px; }
+.f_tw{color: #808285; font-size: 30px; }
+.f_gp{color: #808285; font-size: 30px; }
+.f_yt{color: #808285; font-size: 30px; }
+.footer-links1 li{margin-right: 15px !important; }
+.logo{height: 40px; display: inline-block !important; width: 40px; }
+.logo_div{margin-top: 10%; display: table; font-size: 32px; color: #fff; }
+.headerclass.sticky{position: fixed; width: 100%; }
+.menu_icon li{padding-left: 12px; padding-right: 12px; }
+
+@media (max-width:767px){#subscribeSection{height: auto !important; }
+#subscribeSection input{margin-bottom: 1%; }
+.menu_icon .fa{display: inline; text-align: center; padding-right: 5%; }
+#navbar{float: none !important; border: none; }
+.navbar-header{padding-top: 5%; padding-bottom: 5%; }
+.logo_div{font-size: 24px; }
+.footer-links li{float: none !important; }
+.footer-links1 li{float: left !important; margin-bottom: 2%; margin-top: 2%; }
+#linksSection{height: auto; }
+.navbar-brand{margin: 0px; padding: 0px; }
+.design_comp{text-align: center; }
+.headerclass{height: auto !important; }
+.payment_img{width: 100%; }}
+#product-detail1{margin-top: 130px !important; }
+#logo_span{font-weight: 300!important; font-size: 24px !important; color: #fff; display: inline; margin-left: 20px !important; }
+.white{color: #fff !important; font-size: 15px; }
+.white:hover{color: #fff !important; font-size: 15px; }
+.order-color, .order-color:hover, .order-color:focus, .order-color:active, .order-color:active:focus{color: #fff; background: #008ddc; }
+.disclaimer{color: #000; font-size: 13px; }
+#current_country button{padding: 2px 18px; }
+#current_country ul{z-index: 9999; }
+.sticky-container{padding: 0px; margin: 0px; position: fixed; right: -140px; bottom: 200px; width: 220px; z-index: 1000; }
+.sticky li{border: 2px solid #008ddc; list-style-type: none; background-color: #008ddc; color: #efefef; height: 43px; padding: 0px; margin: 0px 0px 1px 0px; -webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; cursor: pointer; }
+.sticky li p a{text-decoration: none; color: #FFF; }
+.sticky li p a:hover{text-decoration: none; }
+.sticky li:hover{margin-left: -150px; }
+.sticky li img{float: left; margin: 5px 5px 5px 4px; }
+.sticky li p{font-size: 18px; line-height: 16px; margin: 0; padding-left: 18%; padding-top: 12px; position: absolute; }
+.btn-srch:hover{background: #fff; color: #159FEC !important; padding: 3px 6px; background: #fff!important; color: #159FEC; }
+.navbar-form{margin-bottom: -12px; margin-top: 0px; }
+#productTab .titleh3{color: #231f20; font-size: 16px !important; text-align: center; font-family: "lato-light"; text-shadow: none; margin-bottom: 10px; margin-top: 20px; font-weight: 500; line-height: 1.1; }
+.titleh1, .titleh2, .titleh3, .titleh4, .titleh5, .titleh6{font-family: "lato-light"; text-shadow: none; color: inherit; font-weight: 500; line-height: 1.1; }
+.titleh1, .titleh2, .titleh3{margin-bottom: 10px; margin-top: 20px; }
+.titleh1{font-family: "lato-light"; text-shadow: none; font-size: 36px; margin-bottom: 10px; margin-top: 20px; color: inherit; font-weight: 500; line-height: 1.1; }
+.titleh2{font-size: 35px; font-family: "lato-light"; text-shadow: none; margin-bottom: 10px; margin-top: 20px; color: inherit; font-weight: 500; line-height: 1.1; }
+.titleh3{font-size: 30px; font-family: "lato-light"; text-shadow: none; margin-bottom: 10px; margin-top: 20px; color: inherit; font-weight: 500; line-height: 1.1; }
+#productTab .titleh3{color: #231f20; font-size: 16px !important; text-align: center; font-family: "lato-light"; text-shadow: none; margin-bottom: 10px; margin-top: 20px; font-weight: 500; line-height: 1.1; }
+.titleh4{font-family: "lato-light"; text-shadow: none; font-size: 18px; color: inherit; font-weight: 500; line-height: 1.1; }
+.titleh5{font-family: "lato-light"; text-shadow: none; font-size: 14px; margin-bottom: 10px; margin-top: 10px; color: inherit; font-weight: 500; line-height: 1.1; }
+#aboutUs .titleh2, #testimonials .titleh2{font-size: 48px; text-align: center; font-family: "lato-light"; text-shadow: none; color: inherit; font-weight: 500; line-height: 1.1; margin-bottom: 10px; margin-top: 20px; }
+footer .titleh5{color: #ffffff; font-weight: bold; font-family: "lato-light"; text-shadow: none; font-size: 14px; margin-bottom: 10px; margin-top: 10px; line-height: 1.1; }
+.productGrid .titleh3{color: #000000 !important; font-size: 18px; padding-left: 20px; padding-right: 20px; font-family: "lato-light"; text-shadow: none; margin-bottom: 10px; margin-top: 20px; color: inherit; font-weight: 500; line-height: 1.1; }
+.centeralign{text-align: center; }
+.margin-null{margin: 0 0 1%; font-family: "lato-light"; text-shadow: none; font-size: 18px; color: inherit; font-weight: 500; line-height: 1.1; }
+.accordion-toggle .titleh5{text-align: left; font-family: "lato-light"; font-size: 20px; font-weight: bold; text-shadow: none; margin-bottom: 10px; margin-top: 10px; color: inherit; line-height: 1.1; }
+#tagline .titleh5, .sizeh5{font-weight: bold; text-align: center; font-size: 15px; font-family: "lato-light"; text-shadow: none; margin-bottom: 10px; margin-top: 10px; color: inherit; line-height: 1.1; }
+.diagnosisGrid .titleh3{font-size: 15px; font-family: "lato-light"; text-shadow: none; margin-bottom: 10px; margin-top: 20px; color: inherit; font-weight: 500; line-height: 1.1; }
+#contactDistributor .titleh3{text-align: center; font-size: 30px; font-family: "lato-light"; text-shadow: none; margin-bottom: 10px; margin-top: 20px; color: inherit; font-weight: 500; line-height: 1.1; }
+#slogan .titleh5{text-align: center; }
+#informationBox .titleh2{color: #ffffff; font-size: 45px; font-weight: bold; margin-top: 30px; font-family: "lato-light"; text-shadow: none; margin-bottom: 10px; line-height: 1.1; }
+#informationBox .titleh3{color: #ffffff; font-weight: 500; line-height: 30px; font-size: 30px; font-family: "lato-light"; text-shadow: none; margin-bottom: 10px; margin-top: 20px; }
+#informationBox .titleh5{color: #ffffff; font-family: "lato-light"; text-shadow: none; font-size: 14px; margin-bottom: 10px; margin-top: 10px; font-weight: 500; line-height: 1.1; }
+.sitemap ul{background: url(https://www.grocare.com/public/front/images/Vertical.png) left 0 repeat-y rgba(0,0,0,0); list-style-type: none; margin: 20px 0 0; overflow: hidden; padding: 0}
+.sitemap ul li{margin: 0; padding: 3px 0 15px 20px; background: url(https://www.grocare.com/public/front/images/horizontal.png) left 13px no-repeat}
+.sitemap ul li a:link, .sitemap ul li a:visited{color: #000; text-decoration: none}
+.sitemap ul li a:hover{color: #000; text-decoration: underline}
+.sitemap ul ul{background: url(https://www.grocare.com/public/front/images/Vertical.png) left 0 repeat-y rgba(0,0,0,0); margin-top: 10px; padding-left: 0}
+.sitemap ul ul li{display: block; padding: 3px 0 3px 20px}
+.footertext {
+clear: both;
+color: #808285;
+display: inline-block;
+font-family: "Roboto",sans-serif !important;
+font-size: 17px;
+letter-spacing: 1px;
+line-height: normal;
+overflow: hidden;
+text-align: left;
+text-transform: uppercase;
+}
+
+.footertext span {
+  display: block;
+  font-family: "Roboto",sans-serif !important;
+}
+.footertext .wob {
+  font-size: 36px;
+  line-height: 35px;
+}
+.footertext .woc {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 35px;
+}

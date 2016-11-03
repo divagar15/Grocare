@@ -1,0 +1,417 @@
+<?php
+  //echo Session::get('user_id'); die();
+$segment1 = Request::segment(1);
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>@if(isset($pageTitle)){{$pageTitle}}@else{{"Grocare"}}@endif</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="@if(isset($meta_description)){{$meta_description}}@endif">
+<meta name="google-site-verification" content="xbO5dPUDkOkYzinDBSKh4YhE8ftBGAoXrEyqAxnIfUM" />
+<link rel="icon" href="{{URL::asset('public/front/images/icons/favicon.ico')}}">
+<!-- Bootstrap core CSS -->
+<link href="{{URL::asset('public/front/css/bootstrap.css')}}" rel="stylesheet">
+<link href="{{URL::asset('public/front/css/colorbox.css')}}" rel="stylesheet">
+<link href="{{URL::asset('public/front/css/font-awesome.css')}}" rel="stylesheet">
+<link href="{{URL::asset('public/front/css/flags.css')}}" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="{{URL::asset('public/front/css/jquery.dataTables.min.css')}}" rel="stylesheet">
+<link href="{{URL::asset('public/front/css/style.css')}}" rel="stylesheet">
+@yield('customCss')
+<link href="https://www.grocare.com/global2.css" rel="stylesheet" />
+<link href="https://www.grocare.com/global4.css" rel="stylesheet" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100italic,100,300italic,300,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+@if($segment1=='checkout')
+<!-- BEGIN TRACKJS -->
+<script type="text/javascript">window._trackJs = { token: 'a26a756d78f34cc5a300ef56d1642a4c' };</script>
+<script type="text/javascript" src="https://d2zah9y47r7bi2.cloudfront.net/releases/current/tracker.js"></script>
+<!-- END TRACKJS -->
+@endif
+<script data-cfasync="false" type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-51751486-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+<script>
+(function(h,e,a,t,m,p) {
+m=e.createElement(a);m.async=!0;m.src=t;
+p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
+})(window,document,'script','https://u.heatmap.it/log.js');
+</script>
+
+<script type="text/javascript">
+    window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},s=d.getElementsByTagName('script')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='//rec.getsmartlook.com/recorder.js';s.parentNode.insertBefore(c,s);
+    })(document);
+    smartlook('init', '412fbf391d66b4a46a2bee47aceebd82879109da');
+</script>
+
+
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NQTFVC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NQTFVC');</script>
+<!-- End Google Tag Manager -->
+
+<?php 
+    $getGeoCountryCode = App\Helper\FrontHelper::getGeoLocation(); 
+    $getOrderTotal = App\Helper\FrontHelper::getOrderTotal(); 
+    $getTrackingWebsiteCode = App\Helper\FrontHelper::getTrackingID(1); 
+    $getActiveCountries = App\Helper\FrontHelper::getActiveCountries(); 
+  ?>
+<header class="headerclass">
+  <div class="navbar-wrapper">
+  <div class="container-fluid no-padding">
+  <section id="topbar" class="topclass">
+    <div class="container">
+      <div class="hidden-xs col-md-4 topbar1_1">
+        <ul class="list-unstyled list-inline">
+          <li><a href="http://www.facebook.com/grocare" target="_blank" title="Facebook"><img src="{{URL::asset('public/front/images/fb.png')}}" width="18px" height="18px" /></a></li>
+          <li><a href="http://twitter.com/intent/follow?source=followbutton&variant=1.0&screen_name=grocare_india" target="_blank" title="Facebook"><img src="{{URL::asset('public/front/images/twitrer.png')}}" width="18px" height="18px"/></a></li>
+          <li><a href="https://plus.google.com/+Grocare" target="_blank" title="Facebook"><img src="{{URL::asset('public/front/images/googleplus.png')}}" width="18px" height="18px"/></a></li>
+          <li><a href="http://www.youtube.com/channel/UCw3jormjhkEbeU9MGueZejA?sub_confirmation=1" target="_blank" title="Facebook"><img src="{{URL::asset('public/front/images/youtube.png')}}" width="18px" height="18px"/></a></li>
+        </ul>
+      </div>
+      <div class="col-md-8 topbar1">
+      <div class="pull-right clearfix">
+      <ul class="list-unstyled list-inline">
+        <li style="font-size:17px;"> @if(Auth::check() && Auth::user()->id) <a rel="nofollow" href="{{URL::to('/my-profile')}}">My Profile</a> @else <a rel="nofollow" href="{{URL::to('auth/login')}}" title="Login">Login</a> | <a rel="nofollow" href="{{URL::to('/register')}}" title="Register">Register</a> @endif </li>
+        <li style="font-size:17px;">
+          <div id="current_country"
+                 data-input-name="current_country"
+                 data-input-id="current-country"
+                 @if(Session::has('current_country')) data-selected-country="{{Session::get('current_country')}}" @else data-selected-country="{{Session::get('active_country')}}" @endif>
+        </div>
+        </li >
+        <li style="font-size:17px;"> <a rel="nofollow" href="{{URL::to('/cart')}}" title="View your shopping cart"> <i class="fa fa-shopping-cart fa-lg cart" style="padding-right:5px;"></i> Your Cart <span>-</span> <span class="amount" style="color:#337ab7;">{{Session::get('active_symbol')}}&nbsp;<span id="cartOrderTotal" style="color:#337ab7;">{{round($getOrderTotal)}}</span> </span> </a> </li>
+        <li>
+          <div class="navbar-form navbar-left" role="search">
+            <div id="demo" class="collapse" class="form-group " toggle-slide="left">
+            <input type="text" id="searchText" name="searchText" class="form-control"  placeholder="Search" autofocus style="height:27px;padding: 0px 21px;">
+          </div>
+          <a href="javascript:void(0)" id="searchSubmit" class="btn btn-default btn-srch" data-toggle="collapse" data-target="#demo" aria-expanded="false"style="position: absolute;top:0;right:5px;background-color:#fff;padding: 3px 5px;"><i class="glyphicon glyphicon-search"></i></a>
+        </div>
+        </li>
+      </ul>
+    </div>
+    </div>
+    </div>
+  </section>
+  <div class="container">
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand" href="{{URL::to('/')}}">
+          <div class="logo_div"><img src="{{URL::asset('public/front/images/logo.svg')}}" class="logo" style=""/>
+            <div id="logo_span">Grocare</div>
+          </div>
+          </a> </div>
+        <div id="navbar" class="navbar-collapse collapse" style="float:right;">
+          <ul class="nav navbar-nav menu_icon">
+            <li><a href="{{URL::to('/')}}"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="{{URL::to('/diagnose')}}"><i class="fa fa-stethoscope"></i>Self Diagnosis</a></li>
+            <li><a href="{{URL::to('/about-us')}}"><i class="fa fa-info"></i>About Us</a></li>
+            <li><a href="https://www.grocare.com/blog"><i class="fa fa-wordpress"></i>Blog</a></li>
+            <li><a href="{{URL::to('/contact')}}"><i class="fa fa-phone"></i>Contact</a></li>
+            <li><a href="{{URL::to('/products')}}"><i class="fa fa-shopping-cart"></i>Store</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  </div>
+  </div>
+</header>
+<div class="margin_top"> </div>
+@yield('content')
+<div class="col-sm-12">
+  <div class="sticky-container hidden-xs">
+    <ul class="sticky">
+      <li> <i style="font-size:35px;float: left;padding:2px 0 0 4px;" class="fa fa-phone"></i>
+        <p> <a style="line-height:0;" title="" href="#">+91 9822100031</a></p>
+      </li>
+    </ul>
+  </div>
+</div>
+<footer>
+  <div class="container-fluid" id="subscribeSection">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <form class="form-horizontal customForm" id="subscribe-form" action="" method="post" >
+            <div class="form-group">
+              <div class="col-sm-3 col-md-3">
+                <label class="control-label">SUBSCRIBE TO OUR NEWSLETTER</label>
+              </div>
+              <div class="col-sm-3 col-md-3">
+                <input type="text" autocomplete="off" required name="name" id="name" class="form-control" placeholder="Enter your name" />
+              </div>
+              <div class="col-sm-3 col-md-4">
+                <input type="email" autocomplete="off" required name="email" id="email" class="form-control" placeholder="Enter your email address" />
+              </div>
+              <div class="col-sm-3 col-md-2">
+                <button type="submit" class="btn btn-default" name="subscribe_submit" id="subscribe_submit">SUBSCRIBE</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="linksSection_disclaimer">
+    <div class="container">
+      <div class="col-sm-12 col-md-12 no-padding disclaimer">
+       <div class="alert alert-success alert-dismissible" id="successAlert" role="alert" style="display:none;">
+          <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+          <strong id="successMsg"></strong> </div>
+        <div class="alert alert-danger alert-dismissible" id="errorAlert" role="alert" style="display:none;">
+          <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+          <strong id="errorMsg"></strong> </div>
+        <div class="col-sm-12 no-padding">* Disclaimer:All of the above statements are genuine. However, the experiences of the customers who have submitted these testimonials are unique and do not guarantee or predict any outcome. Results may vary from person to person. Additionally, the information on this site is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment.</div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="linksSection">
+    <div class="container">
+      <div class="row" style="margin-top:30px;">
+        <div class="col-md-12">
+          <div class="col-sm-12 col-md-10 no-padding">
+            <div class="col-md-12 no-padding">
+              <ul class="footer-links no-padding">
+                <li><a href="{{URL::to('/')}}">Home</a></li>
+                <li><a href="{{URL::to('/diagnose')}}">Self Diagnosis</a></li>
+                <li><a href="{{URL::to('/products')}}">Store</a></li>
+                <li><a href="{{URL::to('/contact')}}">Contact</a></li>
+                <li><a href="{{URL::to('/about-us')}}">About Us</a></li>
+                <li><a href="{{URL::to('/media')}}">Media</a></li>
+                <li><a href="{{URL::to('/technical-bulletins')}}">Technical Bulletins</a></li>
+                <li><a href="{{URL::to('testimonials')}}">Testimonials</a></li>
+                <li><a href="http://www.grocare.com/blog" target="_blank">Blog</a></li>
+              </ul>
+            </div>
+            <div class="col-md-12 no-padding" style="margin-top:10px;">
+              <div class="titleh5">SUPPORT</div>
+              <ul class="footer-links no-padding">
+                <li><a href="{{URL::to('/faq')}}">FAQ</a></li>
+                <li><a href="{{URL::to('/customer-policy')}}">Customer Policy</a></li>
+                <li><a href="{{URL::to('/shipping-delivery-policy')}}">Shipping & Delivery</a></li>
+                <li><a href="{{URL::to('/cancellation-refund-policy')}}">Cancellation & Refund</a></li>
+                <li><a href="{{URL::to('/disclaimer')}}">Disclaimer</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 no-padding" style="margin-top:10px;">
+              <div class="titleh5">HELPLINE +91 9822100031</div>
+              <ul class="footer-links no-padding">
+                <li><a href="{{URL::to('/contact')}}">Feedback</a></li>
+                <li><a href="{{URL::to('/contact')}}">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-md-8 no-padding pull-right" style="margin: 1% auto;"> <img src="{{URL::asset('public/front/images/icons/ssl-seal.png')}}" style="    width: 75px;"> <img src="{{URL::asset('public/front/images/icons/paypal.png')}}" style="    width: 75px;"> <img src="{{URL::asset('public/front/images/icons/payment-options.png')}}" class="payment_img"> </div>
+          </div>
+          <div class="col-sm-12 col-md-2 no-padding">
+            <div class="col-md-12 no-padding">
+              <ul class="footer-links footer-links1 no-padding">
+                <li><a href="http://www.facebook.com/grocare" target="_blank"><i class="fa fa-facebook f_fb"></i></a></li>
+                <li><a href="http://twitter.com/intent/follow?source=followbutton&variant=1.0&screen_name=grocare_india" target="_blank"><i class="fa fa-twitter f_fb"></i></a></li>
+                <li><a href="https://plus.google.com/+Grocare" target="_blank"><i class="fa fa-google-plus f_fb"></i></a></li>
+                <li><a href="http://www.youtube.com/channel/UCw3jormjhkEbeU9MGueZejA?sub_confirmation=1" target="_blank"><i class="fa fa-youtube f_fb"></i></a></li>
+              </ul>
+            </div>
+            <div class="hidden-xs hidden-sm col-md-12 no-padding" style="margin-top:15px;"><div class="footertext">Your happiness <span class="woa">is a Reflection</span> <span class="wob">of Your</span> <span class="woc">Health</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="copyrightsSection" style="height:auto !important;">
+    <div class="container">
+      <div class="row" style="margin-top:12px;">
+
+
+<!--<div class="col-md-12">
+
+<p style="color:#b3b3b3">
+Disclaimer:All of the above statements are genuine. However, the experiences of the customers who have submitted these testimonials are unique and do not guarantee or predict any outcome. Results may vary from person to person. Additionally, the information on this site is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment.
+</p>
+
+</div>-->
+
+
+        <div class="col-md-12">
+          <div class="col-md-4 no-padding">
+            <p><a href="{{URL::to('/privacy-policy')}}">Privacy Policy</a> | <a href="{{URL::to('/terms-conditions')}}">Terms Of Use</a> | <a href="/sitemap.php">Sitemap</a></p>
+          </div>
+          <div class="col-md-4 no-padding">
+            <p class="copytext" style="text-align:center;">&copy 2015 - <?php echo date('Y');?> <a href="/">Grocare India</a>. All Rights Reserved. </p>
+          </div>
+          <div class="col-md-4 no-padding">
+            <p class="design_comp">Website Powered by <a rel="nofollow" href="http://www.ummtech.com" target="_blank">UMM Studios & Technology</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" ></script> 
+<script type="text/javascript"  src="{{URL::asset('public/front/js/bootstrap.js')}}" ></script> 
+<script type="text/javascript"  src="{{URL::asset('public/front/js/formValidation.min.js')}}" ></script> 
+<script type="text/javascript"  src="{{URL::asset('public/front/js/bootstrapForm.js')}}" ></script> 
+<script type="text/javascript"  src="{{URL::asset('public/front/js/bootstrap.min.js')}}" ></script> 
+<script type="text/javascript"  src="{{URL::asset('public/front/js/jquery.validate.js')}}" ></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> 
+<script type="text/javascript"  src="{{URL::asset('public/front/js/jquery.flagstraps.js')}}" ></script> 
+<script type="text/javascript"  src="{{URL::asset('public/front/js/jquery.colorbox.js')}}" ></script> 
+<script type="text/javascript"  src="{{URL::asset('public/front/js/main.js')}}"></script> 
+<script type="text/javascript">
+$(document).ready(function(){
+var z = 0;
+var activeCountries = '';
+@if(isset($getActiveCountries) && !empty($getActiveCountries))
+@foreach($getActiveCountries as $key=>$value)
+if(z==0) {
+activeCountries = "{{strtolower($key)}}";
+} else {
+activeCountries += ",{{strtolower($key)}}";
+}
+z++;
+@endforeach
+@endif
+//alert(activeCountries);
+        var selectedCountry = '';
+        @if(Session::has('current_country'))
+          selectedCountry = "{{Session::get('current_country')}}";
+        @else
+          selectedCountry = "{{Session::get('active_country')}}";
+        @endif
+
+//$("#current_country").countrySelect({responsiveDropdown:true, defaultCountry:"{{Session::get('active_country')}}", onlyCountries:[activeCountries]});
+
+        //$('#current_countrys').flagStrap();
+
+        $('#current_country').flagStrap({
+            countries: {
+                @if(isset($getActiveCountries) && !empty($getActiveCountries))
+                  @foreach($getActiveCountries as $key=>$value)
+                    "{{$key}}" : "{{$value}}",
+                  @endforeach
+                @endif
+            },
+            buttonSize: "btn-xs",
+            
+            scrollableHeight: "350px",
+            placeholder: {
+                value: "",
+                text: ""
+            },
+            onSelect: function (value, element) {
+
+setTimeout("changeLocation()",1000);
+
+
+             // alert($('select[name="current_country"] option:selected').val());
+              //alert(element);
+return false;
+              /* if(value!='') {
+                  window.location.href = "{{URL::to('change-location')}}/"+value;
+                } else {
+                  window.location.href = "{{URL::to('change-location')}}/"+selectedCountry;
+                  $('select[name="current_country"]').val(selectedCountry);
+                }*/
+            }
+        });
+
+  $(document).on("click","#searchSubmit", function () {
+          var searchText = $('#searchText').val();
+          if(searchText!='') {
+            window.location = "{{URL::to('search-results')}}?q="+searchText;
+          }
+        });
+
+        $('#subscribe-form').validate({
+          submitHandler: function (form) {
+              $('#subscribe_submit').attr('disabled','disabled');
+              $('#subscribe_submit').html('Subscribing...');
+              $.ajax({
+                    url: "{{URL::to('newsletter')}}",
+                    method: 'POST',
+                    data: $('#subscribe-form').serialize(),
+                    success: function(response){
+
+                      $('#subscribe-form')[0].reset();
+
+                      if(response=='success') {
+                        $('#successMsg').html('We need to confirm your email address. To complete the subscription process, please click the link in the email we just sent you.');
+                        $('#successAlert').show();
+                      } else {
+                        $('#errorMsg').html('You are already subscribed to our newsletter.');
+                        $('#errorAlert').show();
+                      }
+
+                      $('#subscribe_submit').removeAttr('disabled');
+                      $('#subscribe_submit').html('Subscribe');
+                    }
+              });
+            }
+        });
+		
+/*		$(window).scroll(function() {
+    if ($(this).scrollTop() > 1){  
+        $('.headerclass'1).addClass("sticky");
+       
+		
+    }
+    else{
+        $('.headerclass1').removeClass("sticky");
+      
+
+    }
+});*/
+      });
+function changeLocation() {
+
+var className = $('.flagstrap-icon').attr('class');
+var selectedName = className.split(' ');
+if(selectedName[1]!='') {
+var splitValue = selectedName[1].split('-');
+
+if(splitValue[1]!='') {
+if(splitValue[1]=='placeholder') {
+
+window.location.href = "{{URL::to('change-location')}}/"+selectedCountry;
+} else {
+
+                  window.location.href = "{{URL::to('change-location')}}/"+splitValue[1];
+}
+                } else {
+
+                  window.location.href = "{{URL::to('change-location')}}/"+selectedCountry;
+                  $('select[name="current_country"]').val(selectedCountry);
+                }
+} else {
+//alert("false");
+}
+}
+    </script> 
+@yield('customJs')
+    
+@if(isset($getTrackingWebsiteCode))<?php echo $getTrackingWebsiteCode; ?>@endif
+</body>
+</html>

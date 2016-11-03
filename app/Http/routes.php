@@ -1,0 +1,303 @@
+<?php
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for an application.
+| It's a breeze. Simply tell Laravel the URIs it should respond to
+| and give it the controller to call when that URI is requested.
+|
+*/
+
+
+Route::get('auth/social/{provider}', 'Auth\AuthController@redirectToProvider');
+Route::get('auth/social/{provider}/callback', 'Auth\AuthController@handleProviderCallback');
+
+Route::get('/', 'Front\HomeController@index');
+Route::get('/about-us', 'Front\HomeController@aboutUs');
+Route::any('/newsletter', 'Front\HomeController@newsletter');
+Route::any('/search-ailment', 'Front\HomeController@searchAilment');
+
+Route::any('/scholarship', 'Front\HomeController@scholarship');
+
+Route::post('/scholarship-application', 'Front\HomeController@scholarshipApplication');
+
+Route::any('/search-results', 'Front\HomeController@searchResults');
+
+Route::any('/email-markup', 'Front\HomeController@emailMarkup');
+
+Route::get('/change-location/{string}', 'Front\HomeController@changeLocation');
+
+//Route::any('/self-diagnosis', 'Front\HomeController@selfDiagnosis');
+//Route::any('/self-diagnosis/{string}', 'Front\HomeController@selfDiagnosisDetail');
+//Route::any('/products', 'Front\HomeController@products');
+//Route::any('/products/{string}', 'Front\HomeController@productDetail');
+//Route::any('/medicine-kit', 'Front\HomeController@medicineKit');
+
+Route::any('/store', 'Front\HomeController@store');
+Route::any('/contact', 'Front\HomeController@contact');
+Route::any('/media', 'Front\HomeController@media');
+
+Route::any('/cancellation-refund-policy', 'Front\HomeController@cancellationRefundPolicy');
+Route::any('/faq', 'Front\HomeController@faq');
+Route::any('/customer-policy', 'Front\HomeController@customerPolicy');
+Route::any('/shipping-delivery-policy', 'Front\HomeController@shippingDeliveryPolicy');
+Route::any('/disclaimer', 'Front\HomeController@disclaimer');
+Route::any('/terms-conditions', 'Front\HomeController@termsConditions');
+Route::any('/privacy-policy', 'Front\HomeController@privacyPolicy');
+Route::any('/technical-bulletins', 'Front\HomeController@technicalBulletins');
+Route::any('/distribute', 'Front\HomeController@distribute');
+
+Route::get('/products', 'Front\ProductController@index');
+Route::get('/products/{string}', 'Front\ProductController@productDetail');
+Route::any('/products-preview/{string}', 'Front\ProductController@previewProductDetail');
+Route::get('/products/{string}/contents', 'Front\ProductController@productContent');
+Route::get('/medicine-kit', 'Front\ProductController@medicineKit');
+
+Route::any('/diagnose', 'Front\DiagnosisController@index');
+Route::any('/diagnose/{string}', 'Front\DiagnosisController@selfDiagnosisDetail');
+Route::any('/diagnosis-preview/{string}', 'Front\DiagnosisController@previewSelfDiagnosisDetail');
+
+Route::any('/testimonials', 'Front\TestimonialsController@index');
+
+Route::any('/add-to-cart', 'Front\CartController@addToCart');
+Route::any('/update-cart', 'Front\CartController@updateCart');
+Route::any('/delete-product/{id}', 'Front\CartController@deleteProduct');
+Route::any('/cart', 'Front\CartController@cart');
+Route::any('/checkout', 'Front\CheckoutController@checkout');
+Route::get('/checkout/order/{id}', 'Front\CheckoutController@orderPage');
+Route::any('/order-tracking/{string}', 'Front\CheckoutController@orderTracking');
+
+Route::get('/check-mailchimp', 'Front\CheckoutController@checkMailchimp');
+
+Route::any('/payment-process','Front\PaymentController@paymentProcess');
+Route::any('/payment-response','Front\PaymentController@paymentResponse');
+
+Route::any('/paypal-payment-process','Front\PaymentController@paypalPaymentProcess');
+Route::any('/paypal-payment-success','Front\PaymentController@paypalPaymentSuccess');
+Route::any('/paypal-payment-cancel','Front\PaymentController@paypalPaymentCancel');
+
+Route::any('/login', 'Front\UserController@login');
+Route::any('/register', 'Front\UserController@register');
+Route::any('/forgot-password', 'Front\UserController@forgotPassword');
+
+Route::any('/my-profile', 'Front\ProfileController@myProfile');
+Route::any('/edit-profile', 'Front\ProfileController@editProfile');
+Route::any('/edit-address', 'Front\ProfileController@editAddress');
+Route::any('/order-details/{id}', 'Front\ProfileController@orderDetails');
+Route::any('/cancel-order/{id}', 'Front\ProfileController@cancelOrder');
+Route::any('/shopping-cart', 'Front\ProfileController@shoppingCart');
+
+Route::any('/placing-order-email', 'Front\CronController@placingOrderEmail');
+Route::any('/checkout-late-email', 'Front\CronController@checkOutLateEmail');
+Route::any('/order-tracking-email', 'Front\CronController@orderTrackingEmail');
+Route::any('/pending-payment-email', 'Front\CronController@pendingPaymentEmail');
+Route::any('/initiate-session-order/{id}', 'Front\CronController@initiateSessionOrder');
+
+
+Route::any('/load-users', 'Front\HomeController@loadUsers');
+
+
+
+/* Admin Routes Starts */
+Route::group(array('prefix' => 'admin'), function() {
+	Route::any('/','Admin\AdminController@login');  
+	Route::any('/dashboard','Admin\AdminController@dashboard');  
+	Route::any('/logout','Admin\AdminController@logout'); 
+
+	Route::any('/tracking-ids','Admin\HomeController@trackingIds');   
+	
+	
+	
+	/*Route::any('/reports', 'Admin\ReportsController@reports');
+	Route::any('/reports-export', 'Admin\ReportsController@reportsExport');*/
+	Route::any('/media', 'Admin\HomeController@media');
+	Route::any('/add-media', 'Admin\HomeController@addMedia');
+	Route::any('/edit-media/{id}', 'Admin\HomeController@editMedia');
+	Route::any('/delete-media/{id}', 'Admin\HomeController@deleteMedia');
+	Route::any('/newsletter', 'Admin\HomeController@newsletter');
+	Route::any('/delete-newsletter/{id}', 'Admin\HomeController@deleteNewsletter');
+	Route::any('/contact-us', 'Admin\HomeController@contactUs');
+	Route::any('/delete-contact-us/{id}', 'Admin\HomeController@deleteContactUs');
+
+	/* Configuration Routes Starts */
+	Route::group(array('prefix' => 'configuration'), function() {
+		Route::any('/currencies','Admin\ConfigurationController@currencies'); 
+		Route::post('/currency-rates','Admin\ConfigurationController@currencyRates');  
+		Route::any('/regions','Admin\ConfigurationController@regions'); 
+		Route::get('/delete-region/{id}','Admin\ConfigurationController@deleteRegion'); 
+		Route::any('/courses','Admin\ConfigurationController@courses'); 
+		Route::get('/delete-course/{id}','Admin\ConfigurationController@deleteCourse'); 
+	});
+
+		/* Product Routes Starts */
+	Route::group(array('prefix' => 'catalog'), function() {
+		Route::group(array('prefix' => 'product'), function() {
+			Route::any('/simple-list','Admin\ProductController@simpleList'); 
+			Route::any('/bundle-list','Admin\ProductController@bundleList'); 
+			Route::any('/add','Admin\ProductController@addSimpleProduct'); 
+			Route::post('/post/add-simple','Admin\ProductController@postSimpleProduct'); 
+			Route::any('/simple/edit/{id}','Admin\ProductController@editSimpleProduct'); 
+			Route::post('/post/edit-simple/{id}','Admin\ProductController@postEditSimpleProduct'); 
+			Route::any('/get-images/{id}','Admin\ProductController@getImages'); 
+			Route::any('/add/bundle','Admin\ProductController@addBundleProduct');
+			Route::any('/bundle/edit/{id}','Admin\ProductController@editBundleProduct'); 
+			Route::get('/delete/{id}','Admin\ProductController@deleteProduct'); 
+			Route::post('/delete-block/{id}','Admin\ProductController@deleteBlock'); 
+			Route::post('/bundle/caclulate-price','Admin\ProductController@calculatePrice');
+		});
+		Route::group(array('prefix' => 'diagnosis'), function() {
+			Route::any('/list','Admin\DiagnosisController@index'); 
+			Route::any('/add','Admin\DiagnosisController@addDiagnosis'); 
+			Route::any('/edit/{id}','Admin\DiagnosisController@editDiagnosis'); 
+			Route::get('/delete/{id}','Admin\DiagnosisController@deleteDiagnosis'); 
+			Route::post('/delete-block/{id}','Admin\DiagnosisController@deleteBlock'); 
+			Route::get('/products/get/{bundleid}/{regionId}','Admin\DiagnosisController@getBundleProducts');
+		});
+	});
+
+	Route::group(array('prefix' => 'testimonials'), function() {
+		Route::get('/list','Admin\TestimonialsController@testimonialsList');
+		Route::any('/add','Admin\TestimonialsController@addTestimonial');
+		Route::any('/edit/{id}','Admin\TestimonialsController@editTestimonial');
+		Route::get('/delete/{id}','Admin\TestimonialsController@deleteTestimonial');
+
+	});
+
+	Route::group(array('prefix' => 'courier-login'), function() {
+		Route::get('/list','Admin\CourierController@courierList');
+		Route::any('/add','Admin\CourierController@add');
+		Route::any('/edit/{id}','Admin\CourierController@edit');
+		Route::get('/delete/{id}','Admin\CourierController@delete');
+
+	});
+
+	Route::any('/order-tracking','Admin\CourierController@orderTracking');
+	Route::any('/order-tracking/{id}/{id2}','Admin\CourierController@viewOrderTracking');
+	Route::get('/order-tracking/delete/{id}/{id2}','Admin\CourierController@removeTracking');
+
+	Route::group(array('prefix' => 'orders'), function() {
+
+		Route::any('/all','Admin\OrderController@all');
+
+		Route::any('/view-previous-orders/{id}/{id2}','Admin\OrderController@viewPreviousOrders');
+
+		Route::any('/add','Admin\OrderController@addOrder');
+		Route::any('/edit-ordered-items/{id}/{id2}','Admin\OrderController@editOrderedItems');
+		Route::get('/delete-items/{id}/{id2}/{id3}','Admin\OrderController@deleteItems');
+		Route::post('/check-product-price/{id}','Admin\OrderController@checkProductPrice');
+		Route::post('/get-customer-details/{id}','Admin\OrderController@getCustomerDetails');
+		Route::post('/get-product/{id}','Admin\OrderController@getProduct');
+
+		Route::get('/check-email/{id}','Admin\OrderController@checkEmail');
+
+		Route::get('/process','Admin\OrderController@processing');
+		Route::get('/completed','Admin\OrderController@completed');
+		Route::get('/refunded','Admin\OrderController@refunded');
+		Route::any('/trash','Admin\OrderController@trash');
+		Route::any('/incomplete','Admin\OrderController@incomplete');
+		Route::any('/hanging','Admin\OrderController@hanging');
+
+		Route::get('/process/{id}','Admin\OrderController@viewProcess');
+		Route::get('/completed/{id}','Admin\OrderController@viewCompleted');
+		Route::get('/refunded/{id}','Admin\OrderController@viewRefunded');
+		Route::get('/cancelled/{id}','Admin\OrderController@viewCancelled');
+		Route::get('/trash/{id}','Admin\OrderController@viewTrash');
+		Route::get('/incomplete/{id}','Admin\OrderController@viewIncomplete');
+
+		Route::get('/resend-order-receipt/{id}/{id2}','Admin\OrderController@resendOrderReceipt');
+
+		Route::get('/successful/{id}','Admin\OrderController@successfulOrder');
+		Route::get('/trash-successful/{id}','Admin\OrderController@trashSuccessfulOrder');
+		Route::get('/delete/{id}','Admin\OrderController@deleteOrder');
+		Route::get('/delete-permanently/{id}','Admin\OrderController@deleteOrderPermanently');
+
+		Route::post('/apply-action','Admin\OrderController@applyAction');
+		
+		Route::any('/download-invoice/{id}', 'Admin\PDFController@downloadInvoice');
+		Route::any('/download-packing-slip/{id}', 'Admin\PDFController@downloadPackingSlip');
+
+
+		/*
+			for pdf download
+		*/
+
+		Route::any('/download-oreder-detail-pdf','Admin\PDFController@downloadOrderDetails');
+
+
+
+
+		Route::post('/address-change/{id}','Admin\OrderController@addressChange');
+		Route::post('/change-status/{id}','Admin\OrderController@changeStatus');
+		Route::post('/update-courier/{id}','Admin\OrderController@updateCourier');
+		Route::post('/update-tracking/{id}','Admin\OrderController@updateTracking');
+		Route::get('/remove-tracking/{string}/{id}/{id2}','Admin\OrderController@removeTracking');
+		Route::post('/add-note/{id}','Admin\OrderController@addNote');
+		Route::get('/remove-note/{string}/{id}/{id2}','Admin\OrderController@removeNote');
+
+	});
+	
+	
+	Route::group(array('prefix' => 'mail-contents'), function() {
+		Route::get('/list','Admin\MailContentController@mailsContents');
+		Route::any('/add','Admin\MailContentController@addMailContent');
+		Route::any('/edit/{id}','Admin\MailContentController@editMailContent');
+		Route::get('/delete/{id}','Admin\MailContentController@deleteMailContent');
+		
+		Route::post('send/{id}','Admin\MailContentController@sendMailContent');
+	});
+
+	Route::any('/inventory','Admin\ReportsController@inventory');
+	Route::any('/accounting','Admin\AccountingController@index');
+
+	/* Reports Routes Starts */
+	Route::group(array('prefix' => 'reports'), function() {
+		Route::any('/order','Admin\ReportsController@order');
+		Route::post('/order/filter-country','Admin\ReportsController@filterCountry');
+		Route::any('/customer','Admin\ReportsController@customer');
+		Route::any('/customer/view/{id}','Admin\ReportsController@viewCustomer');
+		Route::get('/customer/deleteNote/{id}','Admin\ReportsController@deleteNote');
+		Route::any('/export','Admin\ReportsController@export');
+		Route::any('/exportcustomer','Admin\ReportsController@exportcustomer');
+		Route::post('/customer/postrating','Admin\ReportsController@postrating');
+		
+	});
+	
+	Route::group(array('prefix' => 'cms'), function() {
+		Route::any('/aboutus','Admin\CmsController@aboutus');
+		Route::any('/contactlist','Admin\CmsController@contactlist');
+		Route::any('/supportlist','Admin\CmsController@supportlist');
+		Route::any('/distribute','Admin\CmsController@distribute');
+		Route::any('/adddistribute','Admin\CmsController@adddistribute');
+		Route::any('/viewdistribute/{id}','Admin\CmsController@viewdistribute');
+		Route::any('/editdistribute/{id}','Admin\CmsController@editdistribute');
+		Route::any('/deletedist/{id}','Admin\CmsController@deletedist');
+		Route::any('/faq','Admin\CmsController@faq');
+		Route::any('/addfaq','Admin\CmsController@addfaq');
+		Route::any('/editfaq/{id}','Admin\CmsController@editfaq');
+		Route::any('/viewfaq/{id}','Admin\CmsController@viewfaq'); 
+		Route::any('/deletefaq/{id}','Admin\CmsController@deletefaq');
+		Route::any('/technicalbulletins','Admin\CmsController@technicalbulletins');
+		Route::any('/addtechnicalbulletins','Admin\CmsController@addtechnicalbulletins');
+		Route::any('/viewtechnicalbulletins/{id}','Admin\CmsController@viewtechnicalbulletins');
+		Route::any('/edittechnicalbulletins/{id}','Admin\CmsController@edittechnicalbulletins');
+		Route::any('/edittechnicalbulletinsfile/{id}','Admin\CmsController@edittechnicalbulletinsfile');
+		Route::any('/deletetechnicalbulletins/{id}','Admin\CmsController@deletetechnicalbulletins');
+		Route::any('/aboutus_taglinks','Admin\CmsController@aboutustaglinks'); 
+		Route::any('/viewtag/{id}','Admin\CmsController@viewtag'); 
+		Route::any('/edittag/{id}','Admin\CmsController@edittag'); 
+		Route::any('/edittagimage/{id}','Admin\CmsController@edittagimage'); 
+		Route::any('/deletetag/{id}','Admin\CmsController@deletetag'); 
+	});
+	
+	Route::any('/seo','Admin\CmsController@seo');
+
+});
+
+//Route::get('home', 'HomeController@index');
+
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);

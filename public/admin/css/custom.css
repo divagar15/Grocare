@@ -1,0 +1,26 @@
+label.error {
+  color:#f00;
+  display: none !important;
+}
+
+input.error, select.error, textarea.error {
+  border:1px solid #FDD;
+  background: #FDD;
+}
+
+
+.right-align {
+	text-align: right;
+}
+
+.boldTxt {
+	color: #000 !important;
+}
+
+hr.regionLine {
+	border-top:1px solid #999;
+}
+
+.chosen-container {
+   width: 100% !important;
+}
